@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "xxpreinstall": "npx npm-force-resolutions",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -12,6 +13,10 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix && npm run lint:style -- --fix"
+  },
+  "resolutions": {
+    "glob-parent": "^5.1.2",
+    "nth-check": "^2.1.1"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
