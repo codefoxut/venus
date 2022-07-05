@@ -1,5 +1,4 @@
 {
-  "name": "sample-nuxt3-project",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -8,10 +7,6 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/ui": "^0.1.0",
-    "nuxt": "npm:nuxt3@latest"
-  },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.13.6"
+    "nuxt": "3.0.0-rc.4"
   }
 }

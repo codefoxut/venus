@@ -16,6 +16,8 @@ function dec () {
 const locales = useLocales()
 const locale = useLocale()
 const date = useLocaleDate(new Date('2016-10-26') /* NUXT_BIRTHDAY */)
+let host = useHost()
+console.log(host)
 
 </script>
 
@@ -29,7 +31,7 @@ const date = useLocaleDate(new Date('2016-10-26') /* NUXT_BIRTHDAY */)
     <br>
     {{ foo }} {{ bar }}
     <br>
-    {{ $myPlugin() }}
+    <!-- {{ $myPlugin() }} -->
     <a href="/app1/"><span>App1 link</span></a> 
   <br />
    <a href="/teleport/"><span>App2 link</span></a>
@@ -51,9 +53,12 @@ const date = useLocaleDate(new Date('2016-10-26') /* NUXT_BIRTHDAY */)
       </div>
     </div>
 
-    <h1 class="text-xl opacity-50">
+    <h2 class="text-xl opacity-50">
       Nuxt birthday
-    </h1>
+    </h2>
+    <p class="text-4xl">
+      {{ host }}
+    </p>
     <p class="text-4xl">
       {{ date }}
     </p>

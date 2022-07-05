@@ -14,8 +14,13 @@ export default defineNuxtConfig({
   srcDir: "applications/",
   modules: [
     '~/modules/pages',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    ["@nuxtjs/axios", { proxyHeaders: false }],
   ],
+  axios: {
+    // proxy: true
+    baseURL: 'http://apibe.big.jobs:8000/'
+  },
   components: {
     dirs: [
       '~/components',
