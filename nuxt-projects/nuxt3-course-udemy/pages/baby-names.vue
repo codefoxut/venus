@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import {Gender, Popularity, Length, names} from "@/data";
+  import {Gender, Popularity, Length, names} from "@/data/baby_names";
 
     interface OptionsState {
         gender: Gender,

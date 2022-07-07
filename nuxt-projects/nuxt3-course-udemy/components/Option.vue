@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Gender, Length, Popularity } from '@/data';
+import { Gender, Length, Popularity } from '@/data/baby_names';
 
 
     interface OptionProps {
