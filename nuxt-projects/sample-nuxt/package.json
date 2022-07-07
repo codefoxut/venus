@@ -15,9 +15,9 @@
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix && npm run lint:style -- --fix"
   },
   "resolutions": {
-    "glob-parent": "^5.1.2",
-    "nth-check": "^2.1.1",
-    "css-select": "^5.1.0"
+    "glob-parent": ">=5.1.2",
+    "nth-check": ">=2.1.1",
+    "css-select": ">=5.1.0"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
@@ -25,8 +25,6 @@
     "bootstrap": "^4.6.1",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.19.3",
-    "css-select": "^5.1.0",
-    "glob-parent": "^5.1.2",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
