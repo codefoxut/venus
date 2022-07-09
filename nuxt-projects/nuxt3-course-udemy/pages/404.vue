@@ -1,9 +1,16 @@
 <template>
     <div>
-        <RestaurantlyNav />
         <div class="container">
-            <h1>Page not Found</h1>
+            <NuxtLayout name="error">
+
+            <template #header>
+                <h1>Page not Found</h1>
+            </template>
+            <template #back-button >
             <NuxtLink to="/restaurantly/restaurants">Go Back</NuxtLink>
+
+            </template>
+            </NuxtLayout>
         </div>
     </div>
 </template>
