@@ -51,8 +51,8 @@ const {data: city, error } = useAsyncData(
     }
 );
 
-let today = new Date();
-today = today.toLocaleDateString("en-US", {
+const today = new Date();
+const today_str = today.toLocaleDateString("en-US", {
     weekday: "long",
     year: "numeric",
     month: "long",
@@ -80,8 +80,11 @@ const goBack = () => {
             <div class="flex justify-between">
                 <div>
                     <h1 class="text-7xl text-white">{{ city.name }}</h1>
-                    <p class="font-extralight text-2xl mt-2 text-white"> {{ today }}</p>
-                    <img :src="`https://openweathermap.org/img/wn/${city.weather[0].icon}@4x.png`" class="w-56 icon" />
+                    <p class="font-extralight text-2xl mt-2 text-white"> {{ today_str }}</p>
+                    <img
+                      :src="`https://openweathermap.org/img/wn/${city.weather[0].icon}@4x.png`"
+                      class="w-56 icon"
+                    />
                 </div>
                 <div>
                     <p class="font-extralight text-9xl text-white ">{{ city.main.temp }}°</p>

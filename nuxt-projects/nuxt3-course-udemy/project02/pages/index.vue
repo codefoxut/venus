@@ -1,5 +1,11 @@
+<script setup lang="ts">
+const {data} = useFetch("/api/todo");
+
+</script>
+
 <template>
   <div>
+    {{ data }}
     <figure
       class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800"
     >
