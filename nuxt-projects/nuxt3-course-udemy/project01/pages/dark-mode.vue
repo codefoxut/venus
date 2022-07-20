@@ -4,7 +4,6 @@
 
 <template>
   <div :style="isDarkMode ? {background: 'black'} : null">
-    {{ isDarkMode }}
     <DarkModeNav />
     <DarkModeHeading />
     <DarkModeCards />
