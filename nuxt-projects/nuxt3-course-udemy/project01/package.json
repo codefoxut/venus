@@ -10,6 +10,7 @@
     "nuxt": "^3.0.0-rc.5"
   },
   "dependencies": {
-    "parse-path": "^5.0.0"
+    "parse-path": "^5.0.0",
+    "undici": "5.11.0"
   }
 }
