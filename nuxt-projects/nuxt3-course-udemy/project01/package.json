@@ -7,7 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "^3.4.2"
+    "nuxt": "^3.4.3"
   },
   "dependencies": {
     "parse-path": "^5.0.0",
