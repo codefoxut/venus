@@ -5,12 +5,12 @@ const useAuth = () => {
         // create a list of email and passwords
         // and create a filter and matching passsword.
         // return user and error.
-        console.log("signup", email, password);
+        console.log("signup", email);
     }
 
     const signIn = async ({email, password}) => {
         // check the email and password in the list and return user.
-        console.log("signin", email, password);
+        console.log("signin", email);
     }
 
     const signOut = async () => {
