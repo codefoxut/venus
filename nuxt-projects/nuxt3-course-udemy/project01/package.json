@@ -7,10 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "^3.4.3"
+    "nuxt": "^3.6.0"
   },
   "dependencies": {
-    "parse-path": "^5.0.0",
-    "node-fetch": "^3.2.10"
+    "node-fetch": "^3.2.10",
+    "parse-path": "^5.0.0"
   }
 }
