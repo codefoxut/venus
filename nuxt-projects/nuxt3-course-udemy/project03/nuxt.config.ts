@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/supabase",
     "@nuxt/image-edge",
     "@vueuse/nuxt",
   ]
