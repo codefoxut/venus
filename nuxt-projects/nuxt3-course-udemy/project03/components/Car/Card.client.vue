@@ -23,7 +23,7 @@
 			@click="emit('favor', car.id)"
 		/>
 		<div class="flex h-full" @click="navigateTo(`/car/${car.name}-${car.id}`)">
-			<NuxtImg class="w-[300px] h-full" :src="car.url" alt="" />
+			<NuxtImg class="w-[300px] h-full -z-1" :src="car.url" />
 			<div class="p-4 flex flex-col">
 				<div>
 					<h1 class="text-2xl text-blue-700">{{ car.name }}</h1>
