@@ -27,7 +27,7 @@
     "bootstrap": "^4.6.1",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.19.3",
-    "nuxt": "3.9.3",
+    "nuxt": "3.10.2",
     "parse-path": "^5.0.0",
     "parse-url": "^8.1.0",
     "vue": "^2.6.14",
