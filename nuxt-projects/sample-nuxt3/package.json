@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@nuxt/ui": "^0.4.1",
-    "nuxt": "npm:nuxt3@latest"
+    "nuxt": "3.0.0"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
