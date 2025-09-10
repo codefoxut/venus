@@ -8,14 +8,14 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/ui": "^0.4.1",
-    "nuxt": "3.0.0"
+    "@nuxt/ui": "^3.3.3",
+    "nuxt": "3.19.1"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "axios": "^1.6.3",
     "parse-path": "^5.0.0",
     "semver": "^6.3.1",
-    "vite": "^3.2.11"
+    "vite": "^7.1.5"
   }
 }
