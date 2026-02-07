@@ -5,5 +5,8 @@
 </template>
 
 <script setup>
-const { data: mountain } = await useFetch('/api/mountain')
+const { data: mountain } = await useFetch('/api/mountain', {
+  "server": true,
+  "lazy": false
+})
 </script>

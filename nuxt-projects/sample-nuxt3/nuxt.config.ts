@@ -1,26 +1,25 @@
-import { defineNuxtConfig } from 'nuxt'
-
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  typescript: {
+    strict: true
+  },
+  compatibilityDate: '2026-02-08',
   extends: [
     './applications/ui',
     './applications/base'
   ],
-  publicRuntimeConfig: {
-    theme: {
-      primaryColor: 'user_primary'
+  runtimeConfig: {
+    public: {
+      theme: {
+        primaryColor: 'user_primary'
+      }
     }
   },
   srcDir: "applications/",
   modules: [
     '~/modules/pages',
     '@nuxt/ui',
-    ["@nuxtjs/axios", { proxyHeaders: false }],
   ],
-  axios: {
-    // proxy: true
-    baseURL: 'http://apibe.big.jobs:8000/'
-  },
   components: {
     dirs: [
       '~/components',
@@ -31,7 +30,4 @@ export default defineNuxtConfig({
       }
     ]
   },
-  experimental: {
-    reactivityTransform: true
-  }
 })
