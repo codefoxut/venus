@@ -1,4 +1,3 @@
-export default (req, res, next) => {
-    console.log('Legacy middleware')
-    next()
-  }
+export default defineEventHandler((event) => {
+  console.log('Legacy middleware')
+})

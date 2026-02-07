@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 const { count } = defineProps<{
   count: number,
 }>()
-const doubled = $computed(() => count * 2)
+const doubled = computed(() => count * 2)
 </script>
 
 <template>

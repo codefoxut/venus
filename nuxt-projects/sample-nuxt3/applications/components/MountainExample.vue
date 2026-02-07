@@ -1,6 +1,9 @@
 <script setup>
 const { data: mountain } = await useFetch(
-  'https://api.nuxtjs.dev/mountains/mount-everest'
+  'https://api.nuxtjs.dev/mountains/mount-everest', {
+    "server": true,
+    "lazy": false
+  }
 )
 </script>
 

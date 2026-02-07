@@ -10,7 +10,7 @@ export default defineNuxtPlugin(() => {
 
     const timer = useState('timer', () => 0)
   
-    if (process.client) {
+    if (import.meta.client) {
       addRouteMiddleware(async () => {
         console.log('Starting timer...')
         timer.value = 5

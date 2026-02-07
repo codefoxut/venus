@@ -1,6 +1,10 @@
 <script setup>
-const count = ref(1)
-const { data } = await useFetch(() => `/api/beer/${count.value}`, { params: { token: 123 } })
+  const count = ref(1);
+  const { data } = await useFetch(() => `/api/beer/${count.value}`, {
+    query: { token: 123 },
+    watch: [count],
+    immediate: true
+  });
 </script>
 
 <template>
@@ -8,9 +12,7 @@ const { data } = await useFetch(() => `/api/beer/${count.value}`, { params: { to
     <div>
       Fetch result:
       <pre class="text-left"><code>{{ data }}</code></pre>
-      <NButton @click="count++">
-        +
-      </NButton>
+      <NButton @click="count++"> + </NButton>
     </div>
   </NuxtExampleLayout>
 </template>
