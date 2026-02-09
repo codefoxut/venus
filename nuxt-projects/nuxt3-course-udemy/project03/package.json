@@ -10,14 +10,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "^18",
-    "nuxt": "^3.20.1",
+    "@types/node": "^25.2.2",
+    "nuxt": "^4.3.1",
     "typescript": "latest"
   },
   "dependencies": {
-    "@nuxt/image-edge": "^1.0.0-rc.1-28126030.07836ae",
-    "@nuxtjs/supabase": "^0.3.7",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@vueuse/nuxt": "^10.2.0"
+    "@nuxtjs/supabase": "^2.0.3",
+    "@nuxtjs/tailwindcss": "^6.8.0"
   }
 }
