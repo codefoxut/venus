@@ -18,7 +18,9 @@
     "glob-parent": ">=5.1.2",
     "nth-check": ">=2.1.1",
     "css-select": ">=5.1.0",
-    "parse-path": "^5.0.0"
+    "parse-path": "^5.0.0",
+    "axios": "^1.7.4",
+    "http-proxy-middleware": "^2.0.6"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
@@ -27,12 +29,11 @@
     "bootstrap": "^5.3.8",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.48.0",
+    "http-proxy-middleware": "^3.0.5",
     "nuxt": "^4.3.1",
     "parse-path": "^7.1.0",
     "parse-url": "^10.0.3",
     "vue": "^3.5.27",
-    "vue-server-renderer": "^2.7.16",
-    "vue-template-compiler": "^2.7.16",
     "webpack": "^5.105.0"
   },
   "devDependencies": {
@@ -50,9 +51,5 @@
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended-vue": "^1.6.1",
     "stylelint-config-standard": "^40.0.0"
-  },
-  "peerDependencies": {
-    "http-proxy-middleware": "^3.0.5",
-    "lodash.template": "^4.5.0"
   }
 }
