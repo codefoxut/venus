@@ -18,14 +18,14 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.13.0",
-    "react-scripts": "^5.0.1",
     "rollup": "^4.57.1",
     "semver": "^7.7.4",
     "serve-static": "^2.2.1",
     "shell-quote": "^1.8.3",
     "stream-chat": "^9.27.2",
     "stream-chat-react": "^13.13.6",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^5.1.0",
+    "webpack-dev-server": "^5.2.3"
   },
   "resolutions": {
     "glob-parent": "^5.1.2",
