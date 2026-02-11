@@ -18,16 +18,14 @@
     "glob-parent": ">=5.1.2",
     "nth-check": ">=2.1.1",
     "css-select": ">=5.1.0",
-    "parse-path": "^5.0.0",
+    "parse-path": "^7.1.0",
     "axios": "^1.7.4",
     "http-proxy-middleware": "^2.0.6"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/pwa": "^3.3.5",
+    "@vite-pwa/nuxt": "^1.1.1",
     "axios": "^1.13.5",
     "bootstrap": "^5.3.8",
-    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.48.0",
     "http-proxy-middleware": "^3.0.5",
     "nuxt": "^4.3.1",
@@ -37,19 +35,22 @@
     "webpack": "^5.105.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.18.1",
-    "@nuxt/typescript-build": "^3.0.2",
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/stylelint-module": "^5.2.1",
+    "@popperjs/core": "^2.11.8",
+    "@vue/compiler-sfc": "^3.5.13",
+    "eslint": "^9.17.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-vue": "^10.7.0",
-    "nuxt": "^4.3.1",
+    "eslint-plugin-vue": "^9.32.0",
     "postcss-html": "^1.8.1",
     "prettier": "^3.8.1",
-    "stylelint-config-prettier": "^9.0.5",
+    "stylelint": "^17.0.0",
     "stylelint-config-recommended-vue": "^1.6.1",
-    "stylelint-config-standard": "^40.0.0"
+    "stylelint-config-standard": "^40.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "workbox-build": "^7.3.0",
+    "workbox-window": "^7.3.0"
   }
 }
