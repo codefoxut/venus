@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@vite-pwa/nuxt": "^1.1.1",
-    "axios": "^1.13.5",
+    "axios": "^1.15.0",
     "bootstrap": "^5.3.8",
     "core-js": "^3.48.0",
     "http-proxy-middleware": "^3.0.5",
