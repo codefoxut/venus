@@ -7,7 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "^4.4.6",
+    "nuxt": "^4.4.7",
     "semver": "^6.3.1",
     "vite": ">= 7.3.2"
   },
