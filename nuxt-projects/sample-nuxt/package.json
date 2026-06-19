@@ -27,7 +27,7 @@
     "axios": "^1.16.0",
     "bootstrap": "^5.3.8",
     "core-js": "^3.48.0",
-    "http-proxy-middleware": "^3.0.5",
+    "http-proxy-middleware": "^3.0.7",
     "nuxt": "^4.4.6",
     "parse-path": "^7.1.0",
     "parse-url": "^10.0.3",
