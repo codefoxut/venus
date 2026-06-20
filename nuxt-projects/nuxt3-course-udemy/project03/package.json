@@ -11,7 +11,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^25.2.2",
-    "nuxt": "^4.4.6",
+    "nuxt": "^4.4.7",
     "typescript": "latest"
   },
   "dependencies": {
