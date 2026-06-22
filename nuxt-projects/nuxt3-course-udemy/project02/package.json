@@ -9,7 +9,7 @@
   "devDependencies": {
     "nuxt": "^4.4.7",
     "semver": "^6.3.1",
-    "vite": ">= 7.3.2"
+    "vite": ">= 7.3.5"
   },
   "dependencies": {
     "@nuxt/ui": "^3.3.3",
@@ -19,6 +19,6 @@
     "@tailwindcss/typography": "^0.5.4",
     "parse-path": "^5.0.0",
     "tailwindcss": "^3.1.6",
-    "uuid": "^14.0.0"
+    "uuid": "^14.0.1"
   }
 }
