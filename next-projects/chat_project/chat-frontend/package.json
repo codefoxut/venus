@@ -18,7 +18,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.13.0",
-    "rollup": "^4.59.0",
+    "rollup": "^4.62.2",
     "semver": "^7.7.4",
     "serve-static": "^2.2.1",
     "shell-quote": "^1.8.4",
