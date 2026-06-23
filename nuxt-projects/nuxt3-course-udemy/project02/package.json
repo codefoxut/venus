@@ -9,7 +9,7 @@
   "devDependencies": {
     "nuxt": "^4.4.7",
     "semver": "^6.3.1",
-    "vite": ">= 7.3.5"
+    "vite": ">= 8.0.16"
   },
   "dependencies": {
     "@nuxt/ui": "^3.3.3",
