@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@nuxt/ui": "^4.9.0",
-    "nuxt": "^4.4.7"
+    "nuxt": "^4.5.1"
   },
   "dependencies": {
     "@koa/router": "^15.3.0",
