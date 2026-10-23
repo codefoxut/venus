@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^3.4.3",
-    "nuxt": "^4.5.1"
+    "nuxt": "^4.6.2"
   },
   "dependencies": {
     "node-fetch": "^3.2.10",
