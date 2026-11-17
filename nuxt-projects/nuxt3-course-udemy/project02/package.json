@@ -12,7 +12,7 @@
     "vite": ">= 8.3.4"
   },
   "dependencies": {
-    "@nuxt/ui": "^4.9.0",
+    "@nuxt/ui": "^4.12.2",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/line-clamp": "^0.4.0",
@@ -20,5 +20,10 @@
     "parse-path": "^5.0.0",
     "tailwindcss": "^4.3.3",
     "uuid": "^14.0.3"
+  },
+  "overrides": {
+    "minimatch": ">=11.0.1",
+    "postcss-selector-parser": ">=7.1.0",
+    "esbuild": ">=0.28.1"
   }
 }

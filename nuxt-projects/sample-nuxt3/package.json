@@ -18,5 +18,10 @@
     "parse-path": "^7.1.0",
     "semver": "^7.7.4",
     "vite": "^8.3.4"
+  },
+  "overrides": {
+    "minimatch": ">=11.0.1",
+    "glob": ">=14.0.2",
+    "esbuild": ">=0.28.1"
   }
 }

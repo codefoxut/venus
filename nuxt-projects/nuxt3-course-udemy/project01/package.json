@@ -13,5 +13,8 @@
   "dependencies": {
     "node-fetch": "^3.2.10",
     "parse-path": "^7.1.0"
+  },
+  "overrides": {
+    "minimatch": ">=11.0.1"
   }
 }
