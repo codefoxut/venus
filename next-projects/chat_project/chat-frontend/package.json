@@ -23,7 +23,7 @@
     "serve-static": "^2.2.1",
     "shell-quote": "^1.11.0",
     "stream-chat": "^9.27.2",
-    "stream-chat-react": "^13.13.6",
+    "stream-chat-react": "^15.0.2",
     "web-vitals": "^5.1.0",
     "webpack-dev-server": "^6.1.0"
   },
